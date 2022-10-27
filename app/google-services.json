@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290050417524",
+    "project_id": "msuan-3d0dd",
+    "storage_bucket": "msuan-3d0dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290050417524:android:37fe4791bdc26237f5c221",
+        "android_client_info": {
+          "package_name": "com.example.msuan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290050417524-a8dvu73rkae76iefshdjgas9f8j3rbn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiR2lsSjC34hsy0gnJUh-CEmx2Qg7WTwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290050417524-a8dvu73rkae76iefshdjgas9f8j3rbn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

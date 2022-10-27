@@ -4,44 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.msuan.Home"
-    android:background="@drawable/fondoblancos">
+    android:background="@drawable/fondoblancos"
+    tools:context="com.example.msuan.Home">
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="215dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="146dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="192dp"
         android:text="Chats"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.964" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <ImageView
         android:id="@+id/chatButton"
-        android:layout_width="80dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="328dp"
+        android:layout_width="72dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="284dp"
         app:layout_constraintEnd_toStartOf="@+id/textView15"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextViewHome"
         app:srcCompat="@drawable/home1x2" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/providerTextViewHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:text="codigo"
-        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="204dp"
+        android:text="provider"
+        android:textAlignment="center"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toBottomOf="@+id/emailTextViewHome" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -49,40 +47,43 @@
         android:layout_height="94dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.993"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028"
+        app:layout_constraintVertical_bias="0.001"
         app:srcCompat="@drawable/home1x" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:text="Name"
+        android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="173dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="4dp"
-        android:text="contactname@loquesea.com"
+        android:id="@+id/emailTextViewHome"
+        android:layout_width="198dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:text="contactname@uan.edu.co"
+        android:textAlignment="center"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="306dp"
-        android:layout_height="115dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="328dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="172dp"
         android:layout_marginEnd="16dp"
         android:text="Noticias🔥🔥🔥"
         android:textSize="40sp"
@@ -93,49 +94,42 @@
         android:id="@+id/newsButton"
         android:layout_width="71dp"
         android:layout_height="57dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="19dp"
         app:layout_constraintEnd_toStartOf="@+id/textView11"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextViewHome"
         app:srcCompat="@drawable/home1x2" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="299dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="16dp"
-        android:text="Busca Tus Conocidos"
-        android:textSize="28sp"
-        app:layout_constraintBottom_toTopOf="@+id/searchView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.678"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
 
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="284dp"
-        android:layout_height="49dp"
+        android:layout_width="344dp"
+        android:layout_height="43dp"
+        android:contextClickable="true"
+        android:inputType="textShortMessage"
+        android:textAlignment="center"
+        app:guidelineUseRtl="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.898" />
+        app:layout_constraintVertical_bias="0.202">
+
+    </SearchView>
 
     <ImageView
         android:id="@+id/signOut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
         android:layout_marginEnd="84dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.002"
         app:srcCompat="@drawable/home1x3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
