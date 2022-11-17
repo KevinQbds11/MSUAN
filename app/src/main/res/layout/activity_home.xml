@@ -104,8 +104,8 @@
 
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="344dp"
-        android:layout_height="43dp"
+        android:layout_width="323dp"
+        android:layout_height="45dp"
         android:contextClickable="true"
         android:inputType="textShortMessage"
         android:textAlignment="center"
@@ -131,5 +131,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.002"
         app:srcCompat="@drawable/home1x3" />
+
+    <ImageView
+        android:id="@+id/toModify"
+        android:layout_width="42dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

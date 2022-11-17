@@ -75,11 +75,11 @@
 
     <EditText
         android:id="@+id/editTextEmailLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
         android:ems="10"
+        android:hint="email@uan.edu.co"
         android:inputType="textEmailAddress"
-        android:text="Email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -89,11 +89,11 @@
 
     <EditText
         android:id="@+id/editTextPasswordLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="227dp"
+        android:layout_height="51dp"
         android:ems="10"
+        android:hint="contraseña"
         android:inputType="textPassword"
-        android:text="Contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"

@@ -5,6 +5,7 @@ import android.icu.text.CaseMap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.msuan.R
@@ -20,7 +21,7 @@ class Home : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
 
-
+//Botones
         val homeToNews: ImageView = findViewById(R.id.newsButton)
         homeToNews.setOnClickListener {
             startActivity(Intent(this, News::class.java))
@@ -29,6 +30,10 @@ class Home : AppCompatActivity() {
         val homeToChat: ImageView = findViewById(R.id.chatButton)
         homeToChat.setOnClickListener {
             startActivity(Intent(this, Chat::class.java))
+        }
+        val homeToModify: ImageView = findViewById(R.id.toModify)
+        homeToModify.setOnClickListener {
+            startActivity(Intent(this, Modify::class.java))
         }
 //setup
         val bundle = intent.extras
@@ -43,6 +48,8 @@ class Home : AppCompatActivity() {
         }
 
     }
+
+
     private fun setup(email: String,provider: String){
 
         title="Inicio"
