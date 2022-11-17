@@ -37,15 +37,16 @@
 
     <TextView
         android:id="@+id/providerTextViewHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="101dp"
+        android:layout_height="38dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="204dp"
         android:text="provider"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailTextViewHome" />
 
     <ImageView
@@ -61,32 +62,18 @@
         app:srcCompat="@drawable/home1x" />
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Name"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.434"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/emailTextViewHome"
-        android:layout_width="198dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="212dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
         android:text="contactname@uan.edu.co"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.366"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
@@ -115,24 +102,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailTextViewHome"
         app:srcCompat="@drawable/home1x2" />
-
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="323dp"
-        android:layout_height="45dp"
-        android:contextClickable="true"
-        android:inputType="textShortMessage"
-        android:queryHint="usuario,correo"
-        android:textAlignment="center"
-        app:guidelineUseRtl="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202">
-
-    </SearchView>
 
     <ImageView
         android:id="@+id/signOut"
